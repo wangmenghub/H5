@@ -35,9 +35,22 @@ Main.prototype = {
         }), $("#J_Ani6").on("animationend webkitAnimationEnd", function () {
             $(this).removeClass("animated zoomIn").addClass("ani")
         }), touch.on($("#J_Btn"), "swipeleft", function () {
-            return n.curIndex >= 14 ? !1 : (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(), n.rotate -= 30, $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}), n.curIndex++, $("#J_BgBox .bg_1,#J_BgBox .bg_2,#J_BgBox .bg_3").css("-webkit-transform", "translateX(-" + 100 * n.curIndex / 100 + "%)"), $(".salBox").hide(), $("#J_Box" + n.curIndex).css("display", "block"), n.reset(), void(14 == n.curIndex && n.sucInfo()))
+            return n.curIndex >= 14 ? !1 : (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(),
+                n.rotate -= 30,
+                $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}),
+                n.curIndex++,
+                $("#J_BgBox .bg_1,#J_BgBox .bg_2,#J_BgBox .bg_3").css("-webkit-transform", "translateX(-0%)"),
+                $(".salBox").hide(),
+                $("#J_Box" + n.curIndex).css("display", "block"),
+                n.reset(),
+                void(14 == n.curIndex && n.sucInfo()))
         }), touch.on($("#J_Btn"), "swiperight", function () {
-            return n.curIndex && 0 !== n.curIndex ? (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(), n.rotate += 30, $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}), n.curIndex--, $(".salBox").hide(), $("#J_BgBox .bg_1,#J_BgBox .bg_2,#J_BgBox .bg_3").css("-webkit-transform", "translateX(-" + 100 * n.curIndex / 100 + "%)"), void $("#J_Box" + n.curIndex).css("display", "block")) : !1
+            return n.curIndex && 0 !== n.curIndex ? (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(),
+                n.rotate += 30,
+                $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}), n.curIndex--,
+                $(".salBox").hide(),
+                $("#J_BgBox .bg_1,#J_BgBox .bg_2,#J_BgBox .bg_3").css("-webkit-transform", "translateX(-0%)"),
+                void $("#J_Box" + n.curIndex).css("display", "block")) : !1
         }), $("#J_SubmitInfo").on("touchstart", function () {
             n.submitInfo()
         }), $("#J_Box0 .tip").on("tap", function () {

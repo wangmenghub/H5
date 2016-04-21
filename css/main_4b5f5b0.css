@@ -315,19 +315,19 @@ html, body {
 }
 
 .bg-box .bg_3 {
-    width: 3000%;
+    width: 100%;
     height: 100%;
     position: absolute;
     z-index: 1;
-    -webkit-transition: -webkit-transform 1s;
+    /*-webkit-transition: -webkit-transform 1s;*/
     top: 0;
     left: 0;
-    background: url(../img/bg_04_a1dca65.jpg) left top repeat-x;
+    background: url(../img/1.png) left top no-repeat;
     background-size: auto 100%
 }
 
 .bg-box .bg_3 p {
-    background: url(../img/bg_04_a1dca65.jpg) left top repeat-x;
+    background: url(../img/1.png) left top no-repeat;
     background-size: auto 100%;
     width: 100%;
     height: 100%;
@@ -401,29 +401,38 @@ html, body {
 }
 
 .box1 .con-item1 {
-    background: url(../img/1990_b3ee7a5.png) center center no-repeat;
+    /*background: url(../img/1990_b3ee7a5.png) center center no-repeat;*/
     background-size: contain;
-    width: 20.78125%;
-    height: 12.59920635%;
+    /*width: 20.78125%;*/
+    /*height: 12.59920635%;*/
+    width: 60%;
     margin-top: -10%
 }
 
 .box1 .con-item2 {
-    background: url(../img/img6_88cc4d7.png) center center no-repeat;
+    /*background: url(../img/img6_88cc4d7.png) center center no-repeat;*/
     background-size: contain;
     width: 41.09375%;
-    height: 3.17460317%;
+    /*height: 3.17460317%;*/
     -webkit-animation-delay: .5s;
+    /*margin-top: -5px*/
     margin-top: -5px
 }
 
 .box1 .con-item3 {
-    background: url(../img/img7_7115711.png) center center no-repeat;
+    /*background: url(../img/img7_7115711.png) center center no-repeat;*/
     background-size: contain;
     width: 49.21875%;
-    height: 6.8452381%;
+    /*height: 6.8452381%;*/
     -webkit-animation-delay: 1s;
     margin-top: 10px
+}
+.box1 .con-item4 {
+    background-size: contain;
+    width: 49.21875%;
+    /*height: 6.8452381%;*/
+    -webkit-animation-delay: 1s;
+    margin-top: 15px
 }
 
 .box2 {
