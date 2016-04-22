@@ -143,7 +143,7 @@ html, body {
 }
 
 .loading-wrap.loading .loading-img0 {
-    background: url(../img/img5_1_64533a3.jpg) center center no-repeat;
+    background: url(../img/1.jpg) center center no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
@@ -444,19 +444,16 @@ html, body {
     background: url(../img/img10_ea10c4d.png) center center no-repeat;
     background-size: contain;
     width: 100%;
-    height: 10%;
-    margin-top: -80%;
+    height: 9%;
+    margin-top: 15%;
 
 }
 
 .box2 .con-item2 {
-    background: url(../img/img9_c46495a.png) center center no-repeat;
+    background: url(../img/title.png) center center no-repeat;
     background-size: contain;
-    width: 39.0625%;
-    height: 15.97222222%;
-    margin-left: -25%;
-    -webkit-animation-delay: .5s;
-    margin-top: 15px
+    width: 95%;
+    height: 11%;
 }
 
 .box2 .swing_v {
@@ -492,12 +489,12 @@ html, body {
 }
 
 .box2 .con-item3 {
-    background: url(../img/img10_ea10c4d.png) center center no-repeat;
+    background: url(../img/text-1.png) center center no-repeat;
     background-size: contain;
     width: 100%;
-    height: 2.97619048%;
+    height: 70%;
     -webkit-animation-delay: 1s;
-    margin-top: 15px
+    margin-top: -10px
 }
 
 .box3 {
