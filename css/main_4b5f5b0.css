@@ -323,15 +323,15 @@ html, body {
     top: 0;
     left: 0;
     background: url(../img/1.jpg) left top no-repeat;
-    background-size: auto 100%
+    background-size:100% 100%
 }
 
 .bg-box .bg_3 p {
     background: url(../img/1.jpg) left top no-repeat;
-    background-size: auto 100%;
+    background-size:100% 100%;
     width: 100%;
     height: 100%;
-    -webkit-animation: bg_ani 1000s linear 0s infinite;
+    /*-webkit-animation: bg_ani 1000s linear 0s infinite;*/
     position: absolute;
     left: 0;
     top: 0
@@ -405,34 +405,30 @@ html, body {
     background-size: contain;
     /*width: 20.78125%;*/
     /*height: 12.59920635%;*/
-    width: 60%;
     margin-top: -10%
 }
 
 .box1 .con-item2 {
     /*background: url(../img/img6_88cc4d7.png) center center no-repeat;*/
     background-size: contain;
-    width: 41.09375%;
     /*height: 3.17460317%;*/
     -webkit-animation-delay: .5s;
     /*margin-top: -5px*/
-    margin-top: -5px
+    margin-top: -5px;
 }
 
 .box1 .con-item3 {
     /*background: url(../img/img7_7115711.png) center center no-repeat;*/
     background-size: contain;
-    width: 49.21875%;
     /*height: 6.8452381%;*/
     -webkit-animation-delay: 1s;
-    margin-top: 10px
+    margin-top: 10px;
 }
 .box1 .con-item4 {
     background-size: contain;
-    width: 49.21875%;
     /*height: 6.8452381%;*/
     -webkit-animation-delay: 1s;
-    margin-top: 15px
+    margin-top: 15px;
 }
 
 .box2 {
@@ -445,10 +441,12 @@ html, body {
 }
 
 .box2 .con-item1 {
-    background: url(../img/img8_e562aa7.png) center center no-repeat;
+    background: url(../img/img10_ea10c4d.png) center center no-repeat;
     background-size: contain;
     width: 100%;
-    height: 9.62301587%
+    height: 10%;
+    margin-top: -80%;
+
 }
 
 .box2 .con-item2 {
@@ -1682,4 +1680,28 @@ html, body {
     background-color: #b0b2c7;
     animation-play-state: paused;
     -webkit-animation-play-state: paused
+}
+.fff{
+    color: #ffffff;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+.font22{
+    font-size: 22px;
+}
+.border{
+    border: 1px solid #000000;
 }
