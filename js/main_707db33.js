@@ -35,7 +35,7 @@ Main.prototype = {
         }), $("#J_Ani6").on("animationend webkitAnimationEnd", function () {
             $(this).removeClass("animated zoomIn").addClass("ani")
         }), touch.on($("#J_Btn"), "swipeleft", function () {
-            return n.curIndex >= 4 ? !1 : (-1 === navigator.userAgent.indexOf("Android"),
+            return n.curIndex >= 5 ? !1 : (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(),
                 n.rotate -= 30,
                 $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}),
                 n.curIndex++,
@@ -43,9 +43,9 @@ Main.prototype = {
                 $(".salBox").hide(),
                 $("#J_Box" + n.curIndex).css("display", "block"),
                 n.reset(),
-                void(4 == n.curIndex && n.sucInfo()))
+                void(5 == n.curIndex && n.sucInfo()))
         }), touch.on($("#J_Btn"), "swiperight", function () {
-            return n.curIndex && 0 !== n.curIndex ? (-1 === navigator.userAgent.indexOf("Android"),
+            return n.curIndex && 0 !== n.curIndex ? (-1 === navigator.userAgent.indexOf("Android") && document.getElementById("J_Eye").play(),
                 n.rotate += 30,
                 $("#J_Btn").css({"-webkit-transform": "rotate(" + n.rotate + "deg)"}), n.curIndex--,
                 $(".salBox").hide(),
